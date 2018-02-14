@@ -74,7 +74,7 @@ var full = false;
 var pickNumber;
 
 //Number you want - 1
-var test = 2;
+var test = 11;
 
 client.on('message', msg => {
 
