@@ -20,6 +20,7 @@ var mainGuild;
 
 
 client.on('ready', () => {
+	bot.user.setUsername("PUGs HAhaa");
 	console.log(`Logged in as ${client.user.tag}!`);
 	//Getting a variable for the main message to edit
 	mainChannel = client.channels.find(n => n.name == "pug-test");
